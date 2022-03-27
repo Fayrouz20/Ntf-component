@@ -1,0 +1,128 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+
+body{
+
+	background-color: hsl(217, 54%, 11%);
+	    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+
+	width: 300px;
+	height: 515px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	background-color: hsl(216, 50%, 16%);
+	 box-shadow: 25px 25px 25px hsl(217deg 54% 11%);
+	 border: 1px solid  hsl(216, 50%, 16%);
+	 border-radius: 30px;
+
+}
+
+.card .main .equilibrium{
+
+	width: 90%;
+	margin: 15px;
+	border:1px solid hsl(216, 50%, 16%);
+	border-radius: 7px;
+
+}
+
+
+.card .main .svg
+{
+    position: absolute;
+    left:126px;
+    top: 130px;
+    width: 40px;
+    opacity: 0;
+}
+
+.card .main:hover{
+	z-index: 1;
+	opacity: 0.8;
+}
+
+.card .main .svg:hover{
+   opacity: 1;
+}	
+
+.card .content{
+	margin: 15px;
+}
+.card .content h1{
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.card .content h1:hover{
+
+	color: hsl(178, 100%, 50%);
+}
+
+.card .content p{
+
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.card .content  p:last-of-type{
+   
+     font-size: 15px;
+    font-weight: 600;
+}
+.card .content  span:first-of-type{
+	margin-right: 26px;
+    color: hsl(178, 100%, 50%);
+}
+.card .content .clock  {
+	margin-left: 35px;
+}
+hr{
+	border: 1px solid hsl(215, 51%, 70%);
+    border-top: none;
+    opacity: 0.5;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.card .user img{
+   
+     position: relative;
+    border: 2px solid white;
+    border-radius: 100%;
+    left: 15px;
+    height: 6%;
+    width: 10%;
+}
+.card .user p{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    margin: 5px;
+    font-size: 14px;
+    color:hsl(215, 51%, 70%);
+}
+
+.card .user p span{
+	color: white;
+	opacity: 0.5;
+}
+
+.card .user p span:hover{
+	color: hsl(178, 100%, 50%);
+}
